@@ -17,7 +17,7 @@ if(process.env.NODE_ENV === "production") {
     });
 };
 
-app.listen(5000, async () => {
+app.listen(process.env.PORT, async () => {
     try {
         await connectDb();
         console.log("Server live at port 5000...");

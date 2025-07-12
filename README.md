@@ -15,7 +15,7 @@ React – Frontend UI with rich user interactions
 
 Node.js – Server runtime environment
 
-🎯 Features
+## 🎯 Features
 Create new products (name, price, image URL)
 
 Read product list and view details
